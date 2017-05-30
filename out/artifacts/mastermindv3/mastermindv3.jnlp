@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="mastermindv3.jnlp">
+  <information>
+    <title>Mastermind</title>
+    <vendor>Kai Waddington</vendor>
+    <description>mastermindv3</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="mastermindv3.jar" size="27831" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="550" main-class="Mastermind.Main"  name="mastermindv3" />
+  <update check="background"/>
+</jnlp>
